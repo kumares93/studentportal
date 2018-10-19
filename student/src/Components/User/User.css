@@ -1,0 +1,32 @@
+#user-form div *{
+    display: inline-table;
+}
+#user-form input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#user-form label{
+    width: 30%;
+}
+#content{
+    padding:30px 20px !important;
+}
+#user-form input:focus,#register-form button:focus {
+    border: 3px solid #555;
+}
+#user-form button {
+    background-color: #1baae1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border: 3px solid #ccc;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

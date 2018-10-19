@@ -1,0 +1,55 @@
+
+  .container h3{
+    padding: 0px 0px;
+    text-align: left;
+  
+  }
+  .container div{
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+  }
+  .container div div{
+    color: #545454;
+  }
+  .container strong{
+    float: right;
+  }
+  .container{
+width: 80%;
+padding-left: 50px;
+transition: 0.5s;
+  }
+  .page{
+    text-align: center;
+}
+.page ul li{
+    float: left;
+    width: 25px;
+    height: 25px;
+    list-style-type: none;
+    border: groove;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+.page ul li a{
+    text-decoration: none;
+    color: black !important;
+}
+.images img{
+    width: 100px;
+    height: 100px;
+}
+.active{
+  background-color: #1baae1;
+  
+}
+.select{
+  color: #1baae1;
+}
+.select:hover{
+  color: #000000;
+}
+.container i{
+  padding-left: 10px;
+}
