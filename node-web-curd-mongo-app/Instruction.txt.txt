@@ -1,0 +1,10 @@
+1). Create a Mongo Database name = "login"
+2). Run manually "node Dbconnect" in your Terminal.
+3). Run manually "node Dbconnect2" in your Terminal.
+--Now your DB have enough stuff to run with nodeJs now......
+
+Run Nodejs ---
+goto
+----
+
+http:localhost:4300/react     to check your react content
