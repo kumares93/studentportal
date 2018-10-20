@@ -3,7 +3,6 @@ var mongoose=require('mongoose');
 var Schema = mongoose.Schema;
 var con ;
 var userSchema= new Schema({ 
-    author:ObjectId,
     userid: { type: Number, required: true },
     password:{type:Number},
     name:{type:String},
@@ -42,8 +41,8 @@ var saveResponse =function(err){
     }
 };
  
-//thana.save(saveResponse);
-//mark.save(saveResponse);
+thana.save(saveResponse);
+mark.save(saveResponse);
  
 //thana.find(echoRecords);
 userModel.find({userid:101},echoRecords);

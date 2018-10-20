@@ -31,6 +31,7 @@ transition: 0.5s;
     text-align: center;
     padding: 5px;
     margin: 2px;
+    cursor: pointer;
 }
 .page ul li a{
     text-decoration: none;
@@ -42,7 +43,7 @@ transition: 0.5s;
 }
 .active{
   background-color: #1baae1;
-  
+  cursor: wait;
 }
 .select{
   color: #1baae1;

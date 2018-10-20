@@ -39,8 +39,8 @@ var saveResponse =function(err){
     }
 };
  
-//thana.save(saveResponse);
-//mark.save(saveResponse);
+thana.save(saveResponse);
+mark.save(saveResponse);
  
 //thana.find(echoRecords);
 userModel.find({userid:101},echoRecords);
